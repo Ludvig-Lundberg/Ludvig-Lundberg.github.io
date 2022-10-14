@@ -1,0 +1,161 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%; }
+  body h1, body h2, body h3, body h4, body h5 {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: #bf925b;
+    margin: 0px;
+    text-align: center; }
+  body h2 {
+    font-size: 38px;
+    color: black; }
+  body h3 {
+    font-size: 32px; }
+  body p {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px 10px 0px 10px;
+    margin: 0px; }
+  body ul {
+    color: #bf925b;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+    body ul li {
+      color: #bf925b;
+      text-decoration: none; }
+      body ul li a {
+        color: #bf925b;
+        text-decoration: none; }
+  body header {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: gray;
+    margin: 0px;
+    z-index: 10;
+    border-bottom: 2px solid #bf925b; }
+    body header h1 {
+      padding: 0px;
+      margin: 0px 0px 0px 0px;
+      color: white; }
+  body main {
+    width: 100%;
+    height: 100%; }
+    body main .banner {
+      width: 100%;
+      height: 90vh;
+      min-height: 460px;
+      background-color: black;
+      margin: auto; }
+      body main .banner .banner_image {
+        width: 100%;
+        height: 100%;
+        background-image: url(images/20180822_105452.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        opacity: 80%; }
+      body main .banner .banner_text {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        text-align: center;
+        width: 50%; }
+        body main .banner .banner_text h2 {
+          color: white;
+          font-size: 36px; }
+        body main .banner .banner_text img {
+          height: auto;
+          width: 100%;
+          border-radius: 15px; }
+    body main .grid_container {
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 20px;
+      background-color: white;
+      display: grid;
+      text-align: center;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 75px 30px repeat(1, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px; }
+      body main .grid_container .grid_item_1 {
+        grid-area: 1 / 1 / 2 / 6;
+        align-self: center;
+        padding-bottom: 5px;
+        border-bottom: 2.5px solid gray;
+        color: black; }
+      body main .grid_container .grid_item_2 {
+        grid-area: 2 / 1 / max / 2;
+        position: sticky;
+        top: 75px;
+        left: 0;
+        align-self: start; }
+        body main .grid_container .grid_item_2 ul {
+          text-align: left;
+          margin: 0px;
+          padding: 0px; }
+          body main .grid_container .grid_item_2 ul li {
+            margin: 15px 7.5px; }
+            body main .grid_container .grid_item_2 ul li a:hover {
+              color: black; }
+            body main .grid_container .grid_item_2 ul li .black {
+              color: black; }
+        body main .grid_container .grid_item_2 .button_ul {
+          border-bottom: 1px solid gray;
+          width: 80%; }
+          body main .grid_container .grid_item_2 .button_ul li {
+            margin: 10px 0px 10px 7px; }
+            body main .grid_container .grid_item_2 .button_ul li a {
+              color: #bf925b;
+              font-size: 18px;
+              padding-right: 10px; }
+            body main .grid_container .grid_item_2 .button_ul li #active {
+              color: black; }
+      body main .grid_container .grid_item_3 {
+        grid-area: 2 / 2 / 4 / 6;
+        width: 95%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px; }
+      body main .grid_container .grid_item_3_cv {
+        grid-area: 2 / 2 / 3 / 6; }
+        body main .grid_container .grid_item_3_cv a {
+          font-size: 18px;
+          color: #bf925b;
+          text-decoration: none;
+          margin: 10px; }
+      body main .grid_container .grid_item_4_cv {
+        grid-area: 3 / 2 / auto / 6;
+        width: 95%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px; }
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: lightgray; }
+    body .grid_container {
+      height: 200%;
+      width: 85%;
+      padding: 0px 2.5%;
+      box-shadow: 0px 0px 5px 0px black;
+      margin-top: 20px; }
+    body .banner {
+      margin-bottom: 20px; }
+      body .banner .banner_text h2 {
+        white-space: nowrap; }
+      body .banner .banner_text img {
+        max-width: 300px; }
+    body header {
+      padding: 5px 0px; } }
+
+/*# sourceMappingURL=cv_style.css.map */
