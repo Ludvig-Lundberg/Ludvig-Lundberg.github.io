@@ -175,7 +175,7 @@ body {
 				}
 			}
 			.grid_item_4_cv {
-				grid-area: 3 / 2 / auto / 6;
+				grid-area: 3 / 2 / 4 / 6;
 				width: 95%;
 				height: 100%;
 				margin: 0px;
@@ -183,8 +183,11 @@ body {
 			}
 		}
 	}
-
+	.cv_main {
+		height: 100vh;
 	}
+
+}
 @media screen and (min-width: 500px) {
 		body {
 			background-color: lightgray;
