@@ -90,7 +90,7 @@ body {
       body main .grid_container .grid_item_1 {
         grid-area: 1 / 1 / 2 / 6;
         align-self: center;
-        padding-bottom: 5px;
+        padding-bottom: 7px;
         border-bottom: 2.5px solid gray;
         color: black; }
       body main .grid_container .grid_item_2 {
@@ -106,8 +106,6 @@ body {
           body main .grid_container .grid_item_2 ul li {
             margin: 15px 7.5px; }
             body main .grid_container .grid_item_2 ul li a:hover {
-              color: black; }
-            body main .grid_container .grid_item_2 ul li .black {
               color: black; }
         body main .grid_container .grid_item_2 .button_ul {
           border-bottom: 1px solid gray;
@@ -133,6 +131,8 @@ body {
           color: #bf925b;
           text-decoration: none;
           margin: 10px; }
+          body main .grid_container .grid_item_3_cv a:hover {
+            color: black; }
       body main .grid_container .grid_item_4_cv {
         grid-area: 3 / 2 / 4 / 6;
         width: 95%;
@@ -141,6 +141,8 @@ body {
         padding: 0px; }
   body .cv_main {
     height: 100vh; }
+  body .black {
+    color: black; }
 
 @media screen and (min-width: 500px) {
   body {
