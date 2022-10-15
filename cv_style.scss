@@ -145,8 +145,7 @@ body {
 						a {
 							color: rgb(191, 146, 91);
 							font-size: 18px;
-							
-							padding-right: 10px;
+
 						}
 						#active {
 							color: black;
@@ -161,6 +160,10 @@ body {
 				margin: 0px;
 				padding: 0px;
 
+				p {
+					margin-top: 20px;
+					font-size: 20px;
+				}
 			}
 			.grid_item_3_cv {
 				grid-area: 2 / 2 / 3 / 6;

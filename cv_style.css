@@ -114,8 +114,7 @@ body {
             margin: 10px 0px 10px 7px; }
             body main .grid_container .grid_item_2 .button_ul li a {
               color: #bf925b;
-              font-size: 18px;
-              padding-right: 10px; }
+              font-size: 18px; }
             body main .grid_container .grid_item_2 .button_ul li #active {
               color: black; }
       body main .grid_container .grid_item_3 {
@@ -124,6 +123,9 @@ body {
         height: 100%;
         margin: 0px;
         padding: 0px; }
+        body main .grid_container .grid_item_3 p {
+          margin-top: 20px;
+          font-size: 20px; }
       body main .grid_container .grid_item_3_cv {
         grid-area: 2 / 2 / 3 / 6; }
         body main .grid_container .grid_item_3_cv a {
