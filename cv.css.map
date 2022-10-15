@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACJ,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAAE,KAAK;EAEZ,MAAE;IACD,KAAK,EAAE,IAAI",
-"sources": ["CV.scss"],
-"names": [],
-"file": "CV.css"
-}
